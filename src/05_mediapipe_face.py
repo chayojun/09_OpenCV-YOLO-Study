@@ -81,7 +81,7 @@ while True:
             # 입 사이 거리 구하기 
             height, width, _ = frame.shape 
 
-            landmarks = face_landmarks.landmark
+            landmarks = face_landmarks.landmark  # 좌표 리스트
             landmark1 = landmarks[13]
             landmark2 = landmarks[14]
 

@@ -1,10 +1,10 @@
 import sys
 import cv2
 
-vcap = cv2.VideoCapture(0)
+vcap = cv2.VideoCapture(0) # 카메라 설정
 
 while True:
-    ret, frame = vcap.read()
+    ret, frame = vcap.read()  # 카메라 작동여부
     if not ret:
         print("카메라 작동하지 않습니다.")
         sys.exit()

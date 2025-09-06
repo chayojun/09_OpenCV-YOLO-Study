@@ -2,7 +2,7 @@
 import sys 
 import cv2 
 import mediapipe as mp 
-
+# 옵션 설정 -> 준비 -> 감지하기 -> 추출 및 그리기 
 # mediapipe의 Hand Landmark를 추출을 위한 옵션
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils 
